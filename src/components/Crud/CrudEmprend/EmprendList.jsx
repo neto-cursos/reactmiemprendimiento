@@ -84,7 +84,6 @@ const EmprendList = () => {
                 {
                     emprends.map((emprends) => {
                         return (
-
                             <div className="flex items-center bg-gray-100 mb-4 shadow" key={emprends.empr_id}>
                                 <Link to={`/emprendimiento/${emprends.empr_id}`}>
                                     <div className="flex-auto text-left px-4 py-2 m-2">

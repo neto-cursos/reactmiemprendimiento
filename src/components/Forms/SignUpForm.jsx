@@ -41,7 +41,7 @@ const SignUpform = () => {
           fields.map(field =>
             <Input
               key={field.id}
-              handleChange={updateFormInput}
+              onChange={updateFormInput}
               value={formInput[field.id]}
               labelText={field.labelText}
               labelFor={field.labelFor}

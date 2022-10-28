@@ -104,7 +104,7 @@ function App() {
             <Route path="/emprendimiento/:empr_id" element={<SecondMenu></SecondMenu>}></Route>
             <Route path="/videoplayer/:code" element={<VideoPlayer></VideoPlayer>}></Route>
             <Route path="/carousel" element={<Carousel></Carousel>}></Route>
-            <Route path="/pdfviewer" element={<PdfViewer></PdfViewer>}></Route>
+            {/* <Route path="/pdfviewer" element={<PdfViewer></PdfViewer>}></Route> */}
             <Route exact path="/check/:empr_id/cronograma" element={<CheckIfCronRegister></CheckIfCronRegister>}></Route>
             <Route path="/nuevoemprendimiento" element={<RegisterEmprendimiento></RegisterEmprendimiento>}></Route>
             <Route path="/emprendimiento/:empr_id/update" element={<EmprendUpdate></EmprendUpdate>}></Route>
