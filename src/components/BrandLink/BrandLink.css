@@ -1,0 +1,4 @@
+.navbar__brand{
+    font-family: 'KronaOneRegular',sans-serif;
+    @apply p-4
+}
